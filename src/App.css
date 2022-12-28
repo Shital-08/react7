@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+  text-align: center;
+}
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(176, 252, 83),rgb(219, 230, 16),rgb(248, 153, 183));
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Nav{
+  background-color: rgb(5, 45, 104);
+  padding: 5px;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link{
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(254, 227, 227);
+}
+.active{
+ color: rgb(236, 61, 61);
+}
+.text{
+  margin-left: 5rem;
+  font-size: 1.3rem;
+}
+.head{
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-gap: 15vh;
+  justify-content: space-between;
+}
+
+.btn{
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: rgb(171, 234, 237);
+}
+th{
+  background-color: rgb(188, 80, 156);
+  height: 30px;
+width: 200px;
+}
+.td{
+  background-color: rgb(244, 162, 240);
+  height: 30px;
+  width: 200px;
+  text-align: center;
+}
+.b{
+  width: 65vw;
+  margin: 20vh 6vw 10vh;
+}
+.in{
+  width: 25vw;
+  height: 6vh;
+  border: 1px solid rgb(170, 168, 168);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+.in:hover{
+  border: 1px solid black;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.btn1{
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.btn2{
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 30px;
+}
